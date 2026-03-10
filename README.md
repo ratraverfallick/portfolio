@@ -12,7 +12,10 @@ This project aims to predict patient churn (attrition) using a synthetic healthc
 - **Feature Importance:** The model identified billing amounts and satisfaction scores as primary drivers of churn.
 - **Partial Dependence:** Analysis shows how variables like `Age` and `Satisfaction_Score` specifically influence the probability of churn.
 
+[View Presentation](https://ratraverfallick.github.io/portfolio/slides/presentation.pdf)
+
 ## Installation & Usage
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/patient-churn-prediction.git](https://github.com/YOUR_USERNAME/patient-churn-prediction.git)
+
