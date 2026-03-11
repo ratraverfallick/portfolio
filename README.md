@@ -8,6 +8,13 @@ This project aims to predict patient churn (attrition) using a synthetic healthc
 - **Model:** Random Forest Classifier optimized via `GridSearchCV`.
 - **Performance:** Achieved ~**74% accuracy** on the test set.
 
+## Tech Stack
+   - pandas
+   - matplotlib
+   - seaborn
+   - scikit-learn
+   - numpy
+   
 ## Key Insights
 - **Feature Importance:** The model identified billing amounts and satisfaction scores as primary drivers of churn.
 - **Partial Dependence:** Analysis shows how variables like `Age` and `Satisfaction_Score` specifically influence the probability of churn.
@@ -19,17 +26,16 @@ This project aims to predict patient churn (attrition) using a synthetic healthc
    ```bash
    git clone [https://github.com/ratraverfallick/patient-churn-prediction.git](https://github.com/ratraverfallick/patient-churn-prediction.git)
    ```
-2. Install dependencies:
+2. Set up virtual environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Or, on Windows use: venv\Scripts\activate
+   ```
+3. Install dependencies:
    ``` bash
    pip install -r requirements.txt
    ```
-   - pandas
-   - matplotlib
-   - seaborn
-   - scikit-learn
-   - numpy
-   
-3. Launch the analysis:
+4. Launch the analysis:
    ``` bash
    jupyter notebook PatientChurn.ipynb
    ```
